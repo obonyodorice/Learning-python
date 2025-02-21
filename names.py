@@ -1,6 +1,3 @@
-age =20
-num = 0
-while num<age:
- if num<=15:
-  print(num)
- num+=1
+names=('Dorice','Bright','Val','Mervel','Reagan')
+for name  in names[1:4]:
+    print (name)
