@@ -7,11 +7,13 @@ def Sibling_intro(Dictionary):
         Sibling_colour=input('My favourite colour is is:')
         Sibling_colours[Sibling_name]=Sibling_colour   
 
-another=input('add another(y/n)')
-if another=='y':
-    continue
-else:
-    break
+    another=input('add another(y/n)')
+if another=='n':
+     break
+
+
+   
+
 
 # name = input('Enter your name: ')
 # color = input('Enter your favorite color:')
