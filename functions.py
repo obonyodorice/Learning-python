@@ -2,6 +2,7 @@
 #     print(f'Good {time} {name} Hope you are fine')
 # greet('Dorice','Morning')
 class Planet:
+    shape ='Round'
     def __init__(self,name,radius,gravity,system):
         self.name= name
         self.radius= radius
@@ -9,7 +10,7 @@ class Planet:
         self.system= system
     def orbit(self):
         return f'{self.name} is orbiting in the {self.system}'
-
+    
 Earth= Planet( 'Earth',30000,9.8,'Earth system')
 print(f'Name is:{Earth.name}')  
 print(f'radius is:{Earth.radius}') 
