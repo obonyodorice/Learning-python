@@ -4,5 +4,3 @@ def print_name():
    print('My formal name is:',my_name)
 print_name() 
 print('My informal name is:',my_name)
-   
-    
