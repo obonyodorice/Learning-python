@@ -15,25 +15,18 @@
    
 
 
-# name = input('Enter your name: ')
-# color = input('Enter your favorite color:')
-# name1 = input('Enter your name: ')
-# color1 = input('Enter your favorite color:')
-# name2 = input('Enter your name: ')
-# color2 = input('Enter your favorite color:')
-# name3 = input('Enter your name: ')
-# color3 = input('Enter your favorite color:')
 
 
-# family = {
-#     name: color,
-#     name1: color1,
-#     name2: color2,
-#     name3: color3
-# }
 
-# def Sibling_intro(Dictionary):
-#     for key,val in Dictionary.items():
-#         print(f'I am {key} and {val} is my favourite colour')
+family = {
+    'Dorice': 'Blue',
+    'Reagan': 'Pink',
+    'Becky': 'Green',
+    'Ashley': 'Purple'
+}
 
-# Sibling_intro(family)
+def Sibling_intro(Dictionary):
+    for key,val in Dictionary.items():
+        print(f'I am {key} and {val} is my favourite colour')
+
+Sibling_intro(family)
