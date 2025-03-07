@@ -5,7 +5,6 @@
 
 # colours =['yellow','green','purple','indigo','violet']
 # for i,colour in enumerate(colours):
-#     print(f'{i}.{colours[i]}')
-
-a=1000
-print(isinstance(a,float))
+#     print(f'{i}.{colours[
+list=['Dorice','Mercy','Winnie','Addy']
+print(TypeError(list))
