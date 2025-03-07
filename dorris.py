@@ -1,10 +1,11 @@
 # def trapezium_area(a, b):
 #     height = 10
 
-#     area = 0.5 * height * a + height * b
+#     area = 0.5 * height * a + 0.5 * height * b
 
 #     return f'The area of trapezium is {area}'
 
+# trapezium_area(4, 5)
 
 
 class Trapezia:
