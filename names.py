@@ -1,8 +1,9 @@
 
 names=('Dorice','Bright','Val','Mervel','Reagan')
-i=11
-for i in range(len(names)):
+i=1
+while i<len(names):
     print (f'{i}.{names[i]}')
+    i=i+1
 
 # colours =['yellow','green','purple','indigo','violet']
 # for i,colour in enumerate(colours):
