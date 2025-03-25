@@ -36,5 +36,5 @@ Child.age=input('Enter your age')
 print (f'name is:{Child.Name}')
 print(f'age is:{Child.age}')
 
-
+print(Child.remarks())
 
