@@ -22,7 +22,7 @@ Pass.Grade=input('Grade is:')
 Pass.Func=input('Did he/she pass:(y/n)')
 
 
-while True:
+while Pass.Func=='y':
 
     my_dict = {
         'name': Pass.Name,
@@ -35,7 +35,7 @@ while True:
     if Pass.Func == 'n':
         break
 
-    elif Pass.Func == 'y':
+    if Pass.Func == 'y':
 
         print(f'Name is:{Pass.Name}') 
         print(f'Stream:{Pass.Stream}')   
@@ -43,5 +43,6 @@ while True:
         print(f'Overral Grade:{Pass.Grade}')
         
         print(Pass.remarks())
-
+  
         break
+        
