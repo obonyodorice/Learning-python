@@ -22,7 +22,7 @@ Pass.Grade=input('Grade is:')
 Pass.Func=input('Did he/she pass:(y/n)')
 
 
-while Pass.Func=='y':
+while True:
 
     my_dict = {
         'name': Pass.Name,
@@ -41,8 +41,28 @@ while Pass.Func=='y':
         print(f'Stream:{Pass.Stream}')   
         print(f'Admission no.:{Pass.Adm}')
         print(f'Overral Grade:{Pass.Grade}')
-        
         print(Pass.remarks())
-  
         break
-        
+
+Fail=Students('Name','Stream','Adm','Grade','Func')
+Fail.Name=input('Enter the name:')
+Fail.Stream=input('Enter the Stream:')
+Fail.Adm=input('Enter the Adm:')
+Fail.Grade=input('Grade is:')
+Fail.Func=input('Did he/she pass:(y/n)')
+while True:
+    if Fail.Func == 'y':
+        break
+
+    if Fail.Func == 'n':
+
+ 
+        print(f'Name is:{Fail.Name}') 
+        print(f'Stream:{Fail.Stream}')   
+        print(f'Admission no.:{Fail.Adm}')
+        print(f'Overral Grade:{Fail.Grade}')
+
+        # print(Pass.remarks()) 
+        break
+print(Pass.remarks())     
+              
