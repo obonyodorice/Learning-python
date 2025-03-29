@@ -2,19 +2,20 @@
 # greet('Dorice','Morning')
 
 
-# class Students:  #class in python
+class Students:  #class in python
     
-#     def __init__(Self,Name,Stream,Adm,Grade,Func):
-#         Self.Name=Name
-#         Self.Stream=Stream
-#         Self.Adm=Adm
-#         Self.Grade=Grade
-#         Self.Func=Func
+    def __init__(Self,Name,Stream,Adm,Grade):
+        Self.Name=Name
+        Self.Stream=Stream
+        Self.Adm=Adm
+        Self.Grade=Grade
 
-#     def remarks(Self):
-#        return f'{Self.Name} is proceeding to the next class'
+    def remarks(Self):
+       return f'{Self.Name} is proceeding to the next class'
+    def __add__(self,other):
+        return f'Grades are {self.Grade} & {other.Grade} respectively'
 
-# Pass= Students('Name','Stream','Adm','Grade','Func')  #an instance of a class
+Pass= Students('Dorice','Mars','1469','A')  #an instance of a class
 # Pass.Name=input('Enter the name:')
 # Pass.Stream=input('Enter the Stream:')
 # Pass.Adm=input('Enter the Adm:')
@@ -37,14 +38,14 @@
 
 #     if Pass.Func == 'y':
 
-#         print(f'Name is:{Pass.Name}') 
-#         print(f'Stream:{Pass.Stream}')   
-#         print(f'Admission no.:{Pass.Adm}')
-#         print(f'Overral Grade:{Pass.Grade}')
-#         print(Pass.remarks())
+print(f'Name is:{Pass.Name}') 
+print(f'Stream:{Pass.Stream}')   
+print(f'Admission no.:{Pass.Adm}')
+print(f'Overral Grade:{Pass.Grade}')
+print(Pass.remarks())
 #         break
 
-# Fail=Students('Name','Stream','Adm','Grade','Func')
+Fail=Students('Esther','Venus','12608','C')
 # Fail.Name=input('Enter the name:')
 # Fail.Stream=input('Enter the Stream:')
 # Fail.Adm=input('Enter the Adm:')
@@ -57,17 +58,19 @@
 #     if Fail.Func == 'n':
 
  
-#         print(f'Name is:{Fail.Name}') 
-#         print(f'Stream:{Fail.Stream}')   
-#         print(f'Admission no.:{Fail.Adm}')
-#         print(f'Overral Grade:{Fail.Grade}')
+print(f'Name is:{Fail.Name}') 
+print(f'Stream:{Fail.Stream}')   
+print(f'Admission no.:{Fail.Adm}')
+print(f'Overral Grade:{Fail.Grade}')
 
-#         # print(Pass.remarks()) 
+print(Pass + Fail)
+
+        # print(Pass.remarks()) 
 #         break
 # print(Pass.remarks())     
-from datetime import datetime
-def show_date() -> None:
-    print('This is the current date')
-    print(datetime.now())
-show_date()
-show_date()
+# from datetime import datetime
+# def show_date() -> None:
+#     print('This is the current date')
+#     print(datetime.now())
+# show_date()
+# show_date()
