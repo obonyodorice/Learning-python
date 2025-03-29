@@ -66,5 +66,8 @@
 #         break
 # print(Pass.remarks())     
 from datetime import datetime
-print('This is the current date')
-print(datetime.now())
+def show_date() -> None:
+    print('This is the current date')
+    print(datetime.now())
+show_date()
+show_date()
