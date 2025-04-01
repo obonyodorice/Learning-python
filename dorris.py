@@ -38,13 +38,13 @@ Child.con=input('Is the child old,(y/n)')
 
 # print (f'name is:{Child.Name}')
 # print(f'age is:{Child.age}')
-while True:
-    if Child.con == 'n':
-        break
-    elif Child.con== 'y':
-        print (f'name is:{Child.Name}')
-        print(f'age is:{Child.age}')
+# while True:
+#     if Child.con == 'n':
+#         break
+#     elif Child.con== 'y':
+print (f'name is:{Child.Name}')
+print(f'age is:{Child.age}')
 
-        print(Child.remarks())
-        break
+print(Child.remarks())
+        # break
 
