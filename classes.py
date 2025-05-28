@@ -22,16 +22,16 @@ class Car:
     def __str__(self):
         return f'{self.Brand} with {self.Horsepower}hp'
 
-    def __add__(self,other):
-        return f'{self.Brand} & {other.Brand}'
-    # def Drive(self):
-    #     print(f'{self.Brand} is driving')
+    # def __add__(self,other):
+    #     return f'{self.Brand} & {other.Brand}'
+    def Drive(self):
+        return f'{self.Brand} is driving'
     # def speed(self):
     #     print(f'{self.Brand} with {self.Horsepower} Horsepower')
 Toyota=Car('Toyota',200)
-Volvo=Car('Volvo',240)
+# Volvo=Car('Volvo',240)
 print(Toyota)
-print(Toyota + Volvo)
-# Toyota.Drive()
+# print(Toyota + Volvo)
+Toyota.Drive()
 # Toyota.speed()
     
