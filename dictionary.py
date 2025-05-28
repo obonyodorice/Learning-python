@@ -9,14 +9,14 @@ while True:
     Sibling_colour=input('My favourite colour is is:')
     Sibling_colours[Sibling_name]=Sibling_colour   
 
-    # another=input('add another(y/n)')
-    # if another=='y':   
-    #     continue
-    # else:
-    #     break
+    another=input('add another(y/n)')
+    if another=='y':   
+        continue
+    else:
+        print("\nHere are my siblings names and there colours")
 
-    Sibling_intro(Sibling_colours) 
-
+        Sibling_intro(Sibling_colours) 
+        break
 
 
 
