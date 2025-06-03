@@ -1,8 +1,9 @@
+ 
 # Sibling_colours={}
 def Sibling_intro(Dictionary):
 
     for key,val in Dictionary.items():
-        print(f'I am {key} and {val} is my favourite colour')
+      delt-  print(f'I am {key} and {val} is my favourite colour')
 Sibling_colours={}
 while True:
     Sibling_name =input('My name is:')

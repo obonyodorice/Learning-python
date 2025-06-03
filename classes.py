@@ -15,23 +15,43 @@
 # Dorice= teacher()
 # Child_Dorice=student()
 # print(f'{Dorice.best_colour} is my favourite colour and that of my child is also {Child_Dorice.best_colour}')
-class Car:
-    def __init__(self,Brand, Horsepower):
-        self.Brand=Brand
-        self.Horsepower=Horsepower
-    def __str__(self):
-        return f'{self.Brand} with {self.Horsepower}hp'
+# class Car:
+#     def __init__(self,Brand, Horsepower):
+#         self.Brand=Brand
+#         self.Horsepower=Horsepower
+#     def __str__(self):
+#         return f'{self.Brand} with {self.Horsepower}hp'
 
-    # def __add__(self,other):
-    #     return f'{self.Brand} & {other.Brand}'
-    def Drive(self):
-        return f'{self.Brand} is driving'
-    # def speed(self):
-    #     print(f'{self.Brand} with {self.Horsepower} Horsepower')
-Toyota=Car('Toyota',200)
-# Volvo=Car('Volvo',240)
-print(Toyota)
-# print(Toyota + Volvo)
-Toyota.Drive()
-# Toyota.speed()
-    
+#     # def __add__(self,other):
+#     #     return f'{self.Brand} & {other.Brand}'
+#     def Drive(self):
+#         return f'{self.Brand} is driving'
+#     # def speed(self):
+#     #     print(f'{self.Brand} with {self.Horsepower} Horsepower')
+# Toyota=Car('Toyota',200)
+# # Volvo=Car('Volvo',240)
+# print(Toyota)
+# # print(Toyota + Volvo)
+# Toyota.Drive()
+# # Toyota.speed()
+class Student:
+    def __init__(self, name, age, course):
+        self.name = name
+        self.age = age
+        self.course = course
+
+    def introduce(self):
+        print(f"Hi, I'm {self.name}, {self.age} years old, studying {self.course}.")
+
+    def is_adult(self):
+        return self.age >= 18
+
+# Example usage
+student1 = Student("Dorice", 22, "Telecommunications and IT")
+student1.introduce()
+
+if student1.is_adult():
+    print("This student is an adult.")
+else:
+    print("This student is not an adult.")
+
